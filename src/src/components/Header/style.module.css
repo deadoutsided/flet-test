@@ -1,0 +1,11 @@
+.header {
+    width: 100%;
+    display: flex;
+    background-color: rgba(48, 48, 48, 0.87);
+    margin: 0 0 70px;
+}
+
+.title {
+    margin: 0;
+    padding: 20px 40px;
+}

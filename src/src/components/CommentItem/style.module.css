@@ -1,0 +1,27 @@
+.CommentItemWrapper {
+    background-color: rgba(48, 48, 48, 0.87);
+    margin: 0 0 20px;
+    padding: 20px 10px;
+    display: flex;
+    border-radius: 10px;
+    gap: 15px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:darkorchid;
+}
+
+.commentName { 
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 15px;
+}
+
+.commentBody {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 0;
+}

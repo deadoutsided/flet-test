@@ -1,0 +1,12 @@
+.Layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.LayoutInsides {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
