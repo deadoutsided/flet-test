@@ -1,5 +1,5 @@
 import styles from './style.module.css'
-import { Navigate, Outlet, redirect, useLocation, useParams } from "react-router"
+import { Navigate, Outlet, useLocation } from "react-router"
 import { Header } from "../Header"
 
 

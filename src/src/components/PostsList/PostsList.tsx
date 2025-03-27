@@ -20,7 +20,7 @@ function PostsList({
     <section className={styles.postsList}>
       <div className={styles.listWrapper}>
         {data
-          ?.filter((el, i) => i < page * 10 && i >= (page - 1) * 10)
+          ?.filter((_el, i) => i < page * 10 && i >= (page - 1) * 10)
           .map((el) => renderFunc(el))}
       </div>
       {data && (
@@ -36,7 +36,7 @@ function PostsList({
             {data &&
               Array(data.length / 10)
                 .fill(1, 0, page * 10)
-                .map((el, i) => renderPagination(i + 1))}
+                .map((_el, i) => renderPagination(i + 1))}
           </div>
           {page < Math.ceil(data.length / 10) ? (
             <NavLink className={styles.paginationLinks} to={`/${page + 1}`}>
